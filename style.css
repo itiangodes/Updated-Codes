@@ -1,0 +1,53 @@
+body {
+    
+        background-image: url('background.jpg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;
+  background-color: #fff8f0;
+  color: #f4f2f2;
+}
+
+
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .quantity-buttons button {
+      padding: 4px 8px;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+
+.navbar {
+  background-color: #3e2723 !important;
+}
+
+.btn-dark {
+  background-color: #3e2723;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #5d4037;
+}
+
+.hero-section {
+  height: 60vh;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+.card-title {
+  color: #3e2723;
+}

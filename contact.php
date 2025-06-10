@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - WKND</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand fw-bold text-white" href="#">WKND</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="btn btn-outline-light ms-2" href="code.html" title="_blank">Order</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item bg-light"><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1aMxS4UEM2/" target="_blank">@WeekendCupfeph</a></li>
+          <li class="list-group-item bg-light"><strong>Tiktok:</strong> <a href="https://www.tiktok.com/@weekendcupfeph?_t=ZS-8wracqWlMPa&_r=1" target="_blank">@weekendcupfeph</a></li>
+          <li class="list-group-item bg-light"><strong>Instagram:</strong> <a href="https://www.instagram.com/weekendcupfe.ph?igsh=MTgxZ3V2bWp6anIwdA==" target="_blank">@weekendcupfe.ph</a></li>
+          <li class="list-group-item bg-light"><strong>Email:</strong> weekendscupfe.ph@gmail.com</li>
+          <li class="list-group-item bg-light"><strong>Phone:</strong> (+63) 0915 053 3429</li>
+          <li class="list-group-item bg-light"><strong>Address:</strong> 512 P. Burgos Street Sapa II, Rosario, Philippines</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- Bootstrap JS (Required) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript Mobile Enhancements -->
+<script>
+  // Auto-collapse navbar on mobile after clicking a link
+  document.querySelectorAll('.navbar-nav a').forEach(link => {
+    link.addEventListener('click', function () {
+      const navbar = document.querySelector('.navbar-collapse');
+      if (navbar.classList.contains('show')) {
+        new bootstrap.Collapse(navbar).toggle();
+      }
+    });
+  });
+</script>
+</body>
+</html>
